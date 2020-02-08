@@ -1,10 +1,10 @@
 package epam.training.sweets;
 
-public class Jamun implements Sweet
+public class KalaJamun implements Sweet
 {
 	String name;
 	int cost;
-	public Jamun()
+	public KalaJamun()
 	{
 		setCost(20);
 	}
