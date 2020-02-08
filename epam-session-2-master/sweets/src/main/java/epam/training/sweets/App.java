@@ -15,12 +15,12 @@ public class App
     		System.out.print("Enter the name of the sweet : ");
     		String name=sc.next();
     		Sweet sw;
-    		if(name.equals("Jamun"))
-    			sw=new Jamun();
-    		else if(name.equals("Laddu"))
-    			sw=new Laddu();
-    		else if(name.equals("Kaju"))
-    			sw=new Kaju();
+    		if(name.equals("KalaJamun"))
+    			sw=new KalaJamun();
+    		else if(name.equals("Kova"))
+    			sw=new Kova();
+    		else if(name.equals("KrispySweet"))
+    			sw=new KrispySweet();
     		else
     		{
     			System.out.println("No such sweet ");
