@@ -1,12 +1,12 @@
 package epam.training.sweets;
 
-public class Kaju implements Sweet
+public class Kova implements Sweet
 {
 	String name;
 	int cost;
-	public Kaju()
+	public Kova()
 	{
-		setCost(30);
+		setCost(66);
 	}
 	public void setCost(int cost)
 	{
